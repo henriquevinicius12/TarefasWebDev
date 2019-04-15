@@ -1,0 +1,87 @@
+
+
+h1{
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(90deg,#000,#fff,#000);
+  background-repeat: no-repeat;
+  -webkit-text-fill-color: rgba(255  , 255, 255, 0);
+  -webkit-background-clip: text;
+  animation: animate 3s linear infinite;
+  height: 144px;
+  letter-spacing: 4px;
+  overflow: hidden;
+  
+  font-size: 3em;
+}
+
+
+
+#func{
+  background: #3d9970
+  
+}
+
+.intro{
+  background: yellowgreen
+}
+
+.cabecalho.intro{
+  background: #01ff70;
+  width: 100%;
+}
+
+.textWithEffect{
+  background: #000;
+}
+.libem {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+.intro.first.second.third{
+  text-align: center;
+  background: white
+}
+.first{
+  background: blue;
+  width: 30%;
+  display: inline-block;  
+
+}
+
+.second{
+  background: white;
+  width: 30%;
+  display: inline-block;
+  
+}
+
+.third{
+  background: red;
+  width: 30%;
+  display: inline-block;
+  
+
+  
+}

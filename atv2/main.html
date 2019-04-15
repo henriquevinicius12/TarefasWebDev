@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <span id="ola">ola</span>
+    <script>
+        var boo = false
+        var ola = document.getElementById('ola')
+        ola.addEventListener('click',function(){
+            if(boo){
+                ola.textContent = 'tchau'
+                ola.style.fontSize = '100'
+                boo = false
+            }
+            else if(!boo){
+                ola.textContent = 'tudo bem'
+                ola.style.fontSize = '50'
+                boo = true
+            }
+        })
+    
+    </script>
+    <p></p>
+    <span id="novamente">Clique Aqui</span>
+    <script>
+    
+    var boa = document.getElementById('novamente')
+    boa.addEventListener('click',function(){
+
+        boa.textContent = boa.textContent + " novamente"
+            
+    })
+        
+        
+        </script>
+</body>
+</html>
